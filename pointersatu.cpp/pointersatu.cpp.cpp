@@ -7,13 +7,16 @@ using namespace std;
 class mahasiswa {
 public:
     int nim;
-    void showNm() {
+    void showNim() {
         cout << "No Induk = " << nim << endl;
     }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs{ 1 }; //Obejct mhs
+    mhs.showNim(); // member accest operator
+
+    
 }
 

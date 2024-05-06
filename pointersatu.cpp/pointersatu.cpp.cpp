@@ -20,5 +20,10 @@ int main()
     mahasiswa& refMhs = mhs; // pointer refenrences refMhs
     refMhs.nim = 2; // member acces operator
     mhs.showNim();
+
+    mahasiswa *pMhs = &mhs;//pointer deferences pMhs
+    pMhs->nim = 3; // Arrow operator
+    pMhs->showNim();
+    return 0;
 }
 

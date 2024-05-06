@@ -17,6 +17,8 @@ int main()
     mahasiswa mhs{ 1 }; //Obejct mhs
     mhs.showNim(); // member accest operator
 
-    
+    mahasiswa& refMhs = mhs; // pointer refenrences refMhs
+    refMhs.nim = 2; // member acces operator
+    mhs.showNim();
 }
 

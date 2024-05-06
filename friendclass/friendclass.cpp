@@ -10,7 +10,7 @@ private :
 
 public :
     void setnama(string pNama);
-
+    friend class siswa;
 
 
 

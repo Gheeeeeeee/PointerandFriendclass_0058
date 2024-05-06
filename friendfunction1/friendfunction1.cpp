@@ -13,9 +13,17 @@ public:
     friend void setNama(mahasiswa& a, string);
 };
 
+void setNama(mahasiswa &a, string pNama)
+{
+    a.nama = pNama;
+}
+
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa joko;
+    setNama(joko, "kairi kumar");
+    return 0;
 }
 
 
